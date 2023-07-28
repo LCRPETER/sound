@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 94, 52);
+}
+body {
+  background: rgb(16, 25, 37);
+  overflow: hidden;
+}
+ul {
+  margin: 70px auto;
+  width: 80%;
+  min-width: 497px;
+  max-width: 685px;
+  min-height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 20px;
+  padding: 10px;
+  background: #fff;
+}
+
+li {
+  min-width: 80px;
+  height: 80px;
+  margin: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid green;
+}
